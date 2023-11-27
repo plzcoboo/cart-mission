@@ -53,7 +53,6 @@ const Cart = () => {
                 text:'',price:"",amount:""
             })
             textRef.current.focus()
-            setTotal(total + cart.price * cart.amount)
         }       
     }
 
